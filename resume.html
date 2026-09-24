@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sungho Lee — Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --ink:#1b2430; --muted:#5b6674; --line:#d9dee5; --accent:#0f4c81; --accent-soft:#eaf1f8; --bg:#ffffff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#eef1f4;color:var(--ink);
+    font-family:"Inter","Helvetica Neue",Arial,"Noto Sans CJK KR","Noto Sans KR",sans-serif;
+    font-size:9.6pt;line-height:1.38;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{width:210mm;min-height:297mm;margin:12px auto;background:var(--bg);padding:14mm 15mm 12mm;
+    box-shadow:0 2px 10px rgba(0,0,0,.08)}
+  header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2.5px solid var(--accent);padding-bottom:8px}
+  h1{margin:0;font-size:22pt;letter-spacing:.5px;font-weight:700}
+  .title{margin-top:2px;color:var(--accent);font-weight:600;font-size:10.5pt}
+  .total{margin-top:4px;font-size:9pt;font-weight:600;color:var(--ink)}.total span{font-weight:400;color:var(--muted)}
+  .contact{text-align:right;white-space:nowrap;color:var(--muted);font-size:9pt;line-height:1.55}
+  .contact a{color:var(--muted);text-decoration:none}
+  h2{font-size:10pt;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);
+    margin:16px 0 7px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+  .summary{margin:14px 0 0;font-size:9.8pt}
+  .chips{display:grid;grid-template-columns:repeat(3,1fr);gap:7px 9px;margin-top:4px}
+  .chip{background:var(--accent-soft);border-radius:5px;padding:5px 8px;font-size:8.8pt}
+  .chip b{display:block;color:var(--accent);font-size:8.8pt;margin-bottom:1px}
+  .job{margin-bottom:13px}li,.role,.job-head{break-inside:avoid}.job-head,.role,.sub{break-after:avoid}
+  .job-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .company{font-weight:700;font-size:10.3pt}
+  .dates{color:var(--muted);font-size:9pt;white-space:nowrap}
+  .role{color:var(--muted);font-size:9pt;margin:2px 0 5px}
+  .proj{font-weight:600;color:var(--accent);font-size:9.3pt;margin:9px 0 2px}
+  ul{margin:2px 0 0;padding-left:15px}
+  li{margin:2px 0}
+  li b{font-weight:600}
+  .num{font-weight:700;color:var(--accent)}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+  .skills{margin:0} .two dl{margin:0} .skills dt{font-weight:600;font-size:9pt;margin-top:8px}
+  .skills dd{margin:0 0 2px;color:#2d3744;font-size:9pt}
+  .small{font-size:9pt}
+  .sub{margin-left:0;padding-left:10px;border-left:2px solid var(--line)}
+  .topnav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.95);border-bottom:1px solid #d9dee5;padding:10px 16px;display:flex;gap:16px;align-items:center;font-size:14px}.topnav a{color:#0f4c81;text-decoration:none}.topnav b{margin-right:auto}
+  @media print{.topnav{display:none}}
+  @page{size:A4;margin:10mm 13mm}
+  @media print{
+    html,body{background:#fff}
+    .page{margin:0;padding:0;box-shadow:none;min-height:auto;width:auto}
+    .page+.page{padding-top:12px}
+  }
+  @media screen and (max-width:820px){
+    .page{width:auto;min-height:auto;margin:0;padding:18px 16px}
+    header{flex-direction:column;align-items:flex-start;gap:6px}
+    .contact{text-align:left}
+    .chips,.two{grid-template-columns:1fr}
+    .job-head{flex-direction:column}
+  }
+</style>
+</head>
+<body>
+<nav class="topnav"><b>Sungho Lee · Resume</b><a href="index.html">Home</a><a href="portfolio.html">Portfolio (KR)</a><a href="resume_ko.html">이력서 (KR)</a></nav>
+
+
+<div class="page">
+  <header>
+    <div>
+      <h1>SUNGHO LEE</h1>
+      <div class="title">Automotive Quality Engineer · New Product Launch · Supplier APQP</div>
+      <div class="total">6 yrs 3 mos total · 5 yrs 4 mos in automotive quality <span>(as of Sep 2026)</span></div>
+    </div>
+    <div class="contact">
+      Daejeon, Republic of Korea<br>
+      <a href="mailto:sungho3082@gmail.com">sungho3082@gmail.com</a><br>
+      Korean (Native) · English (OPIc IM2)
+    </div>
+  </header>
+
+  <p class="summary">
+    Automotive quality engineer with ~5 years at Tier-1 suppliers (Valeo, Hanon Systems), focused on getting quality right
+    <b>before SOP</b>: FMEA-driven launch quality for a new vehicle program, supplier APQP from process validation to line
+    try-out, and data-level root cause analysis of field claims down to IC/EEPROM logic. Now leading supplier development
+    in step with vehicle development gates at Hanon Systems.
+  </p>
+
+  <h2>Core Strengths</h2>
+  <div class="chips">
+    <div class="chip"><b>New Program Launch · APQP</b>Gate-based risk reduction from proto to SOP; FMEA, Control Plan, error-proofing</div>
+    <div class="chip"><b>Customer &amp; Field Quality</b>Led joint investigations with customer and IC maker; KRW 26M claim defended</div>
+    <div class="chip"><b>Automotive Electronics</b>PCBA, Hall IC (TLE4997) EEPROM, FCT/EOLT processes, sensor products</div>
+    <div class="chip"><b>Root Cause Analysis</b>FTA · PDCA · 8D; data-sheet and log-based analysis, reproduction tests</div>
+    <div class="chip"><b>Audit &amp; QMS</b>Led IATF 16949 and Valeo V5000 audits (2023, 2024); supplier process audits</div>
+    <div class="chip"><b>Work Automation</b>Built my own tools with AI assistance: project dashboard, PDF auto-signing, SAP entry automation</div>
+  </div>
+
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-head"><span class="company">Hanon Systems</span><span class="dates">05/2026 – Present</span></div>
+    <div class="role">Senior Professional, Parts &amp; Supplier Development (P&amp;SD), Purchasing Division · Daejeon · Full-time</div>
+    <ul>
+      <li><b>Supplier development aligned with vehicle development phases</b> for heat-exchanger parts (chiller, condenser, radiator): drive quality and delivery readiness at each development gate.</li>
+      <li><b>JG program chiller development follow-up</b>: track development progress, check gate-by-gate quality and delivery issues, and assess supplier capacity (CAPA) and processes to confirm SOP readiness.</li>
+      <li><b>Supplier Communication Seminar (H1 2026)</b>: planned and hosted for ~<span class="num">200</span> supplier CEOs, delivering customer (OEM) messages such as Zero Defect and the QCD improvement direction.</li>
+      <li><b>Supplier quality KPIs</b>: structured supplier-level quality indicators into a management baseline and shared best-practice improvement cases across suppliers.</li>
+      <li><b>Work efficiency (built with AI tools)</b>: supplier development schedule dashboard (Google Sheets → web DB), automatic PDF download and signing (Power Automate + Python), SAP quality data and B/L entry automation (Excel VBA), and automatic supplier request mails.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head"><span class="company">Valeo Mobility Korea</span><span class="dates">01/2025 – 05/2026 (1 yr 5 mos)</span></div>
+    <div class="role">Quality Engineer (Site SQA) · Daegu · Full-time · New legal entity and new plant after ADAS spin-off</div>
+
+    <div class="proj">ROA new program launch — preventive launch quality</div>
+    <ul>
+      <li>Rated launch risks with FMEA at the design stage: <b>mixed-part shipment (Middle)</b> and <b>connector cosmetic damage (High)</b>.</li>
+      <li>Proposed an <b>error-proof labeling logic</b> (label prints only when barcode part number and quantity match); won approval from
+        manufacturing engineering by quantifying the loss (~KRW 5M per mix-up, recurring at least quarterly). Added <b>connector vision inspection</b>.</li>
+      <li>At proto stage, resolved <b>bracket noise</b> with R&amp;D by tightening drawing tolerance (<span class="num">0.3 → 0.1 mm</span>) and adding ribs;
+        specified heat-staking and assembly-interference gauges to set clear acceptance criteria.</li>
+      <li>Result: FMEA risks lowered to <b>Low</b> before SOP; stable early-production assembly and function quality.</li>
+    </ul>
+
+    <div class="proj">New plant QMS &amp; incoming quality</div>
+    <ul>
+      <li>Built an <b>SAP–Apriso integrated interlock</b> that blocks goods receipt until inspection results are entered; re-set key control dimensions,
+        renewed supplier inspection agreements, and digitized ISIR/inspection records to meet Valeo 5 Star requirements.</li>
+      <li>Cut in-process scrap rate by <span class="num">13%</span> through incoming defect prevention.</li>
+      <li>Solved PBT GF30 housing brittleness at an injection-molding supplier (resin residence during machine stops); purging interlock and
+        destructive check lowered FMEA risk from High to Low, rolled out to all molding lines.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head"><span class="company">Valeo Electrical Systems Korea</span><span class="dates">06/2021 – 12/2024 (3 yrs 7 mos)</span></div>
+    <div class="role">Site SQA Engineer · Gyeongju · Full-time · Left by internal transfer (ADAS division spin-off)</div>
+
+    <div class="proj">Field claim RCA — MDPS steering (sensor product)</div>
+    <ul>
+      <li>Steering field issue registered as a customer major quality agenda. With no R&amp;D support on site, self-studied the Hall IC data sheet and
+        EEPROM structure, analyzed returned parts (PGSIS-2 tool, oscilloscope reproduction tests).</li>
+      <li>Found a Threshold Margin Level written in an unstable band causing parity errors; proved the customer's re-writing voltage drop as root cause
+        in a joint investigation with the customer and IC maker — <span class="num">~KRW 26M</span> claim cost defended.</li>
+      <li>Set up EEPROM data-integrity sampling inspection, limit samples, and inspection standards.</li>
+    </ul>
+
+    <div class="proj">New supplier APQP — SMT/PCBA resourcing (2022.12 – 2023.03)</div>
+    <ul>
+      <li>Led process audits, PV test selection, FDPR, Cp/Cpk and MSA, and FMEA/Control Plan updates for dual-sourcing a PCBA supplier.</li>
+      <li>At line try-out, traced 100% FCT failure to a wrong EEPROM write value (LP filter '100' instead of '011') via data-sheet analysis; added
+        write-then-read 100% verification to the Control Plan — <span class="num">45%</span> PPM reduction after SOP.</li>
+    </ul>
+
+    <div class="proj">Production &amp; system quality</div>
+    <ul>
+      <li>Led IATF 16949 and Valeo V5000 (TQ) audits in 2023 and 2024; certification maintained.</li>
+      <li>New-mold ISIR approval for 3 injection parts (2024): PFMEA update, capability/MSA review, gauge specs — FDPR process defect rate
+        <span class="num">−10%</span>.</li>
+      <li>TAS line top scrap (EOLT hysteresis): identified PCBA flux tilting and housing structure causes — <span class="num">21%</span> PPM reduction.</li>
+      <li>Handled supplier quality issues with global suppliers (Thailand, Slovakia, Germany) in English; recovered quality costs incl.
+        ~KRW 60M and ~KRW 80M claims.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="page">
+  <div class="job">
+    <div class="job-head"><span class="company">Dokkaebi Co., Ltd.</span><span class="dates">10/2020 – 03/2021 (6 mos)</span></div>
+    <div class="role">Product Designer · Gumi · Full-time · Left due to company closure</div>
+    <ul>
+      <li>Designed an e-kickboard body and safety accessories (wind shield, LED safety system) for a national R&amp;D project; built 3D-printed prototypes and coordinated welding/machining vendors.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head"><span class="company">DIGEN Co., Ltd.</span><span class="dates">08/2019 – 12/2019 (5 mos)</span></div>
+    <div class="role">Process Engineering Intern (Electronics) · Daegu</div>
+    <ul>
+      <li>Proved test logic with an Arduino current-measurement module, then led outsourced development of a 100% automated inspection system with real-time Bluetooth data monitoring.</li>
+    </ul>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="two skills">
+    <dl>
+      <dt>Quality methods</dt><dd>APQP, PPAP/ISIR, PFMEA, Control Plan, FDPR, SPC (Cp/Cpk), MSA/Gage R&amp;R, FTA, PDCA, 8D, 4M change</dd>
+      <dt>Standards &amp; audits</dt><dd>IATF 16949, Valeo V5000 / 5 Star, supplier process audit</dd>
+      <dt>Electronics</dt><dd>PCBA/SMT, FCT/EOLT, Hall IC EEPROM analysis (PGSIS-2), oscilloscope</dd>
+    </dl>
+    <dl>
+      <dt>Systems</dt><dd>SAP, Apriso (MES)</dd>
+      <dt>Data &amp; automation</dt><dd>Excel VBA, Python (pandas), Google Apps Script, HTML/JS dashboards, Supabase/Vercel, Power Automate, Arduino</dd>
+    </dl>
+  </div>
+
+  <h2>Education</h2>
+  <div class="job-head small"><span><b>Kumoh National Institute of Technology</b> — B.S. Mechanical Engineering (GPA 3.81/4.5)</span><span class="dates">03/2014 – 02/2020</span></div>
+
+  <h2>Additional</h2>
+  <ul class="small">
+    <li>ROK Navy (2015 – 2016), Cheonghae Unit anti-piracy escort mission off Somalia · OPIc English IM2 (Aug 2025)</li>
+  </ul>
+</div>
+
+</body>
+</html>

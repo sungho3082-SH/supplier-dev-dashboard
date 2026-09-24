@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>이력서 · 이성호</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --ink:#1b2430; --muted:#5b6674; --line:#d9dee5; --accent:#0f4c81; --accent-soft:#eaf1f8; --bg:#ffffff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#eef1f4;color:var(--ink);
+    font-family:"Pretendard","Noto Sans KR","Noto Sans CJK KR","Malgun Gothic",sans-serif;
+    font-size:9.6pt;line-height:1.38;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{width:210mm;min-height:297mm;margin:12px auto;background:var(--bg);padding:14mm 15mm 12mm;
+    box-shadow:0 2px 10px rgba(0,0,0,.08)}
+  header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2.5px solid var(--accent);padding-bottom:8px}
+  h1{margin:0;font-size:22pt;letter-spacing:.5px;font-weight:700}
+  .title{margin-top:2px;color:var(--accent);font-weight:600;font-size:10.5pt}
+  .total{margin-top:4px;font-size:9pt;font-weight:600;color:var(--ink)}.total span{font-weight:400;color:var(--muted)}
+  .contact{text-align:right;white-space:nowrap;color:var(--muted);font-size:9pt;line-height:1.55}
+  .contact a{color:var(--muted);text-decoration:none}
+  h2{font-size:10pt;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);
+    margin:26px 0 9px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+  .summary{margin:14px 0 0;font-size:9.8pt}
+  .chips{display:grid;grid-template-columns:repeat(3,1fr);gap:7px 9px;margin-top:4px}
+  .chip{background:var(--accent-soft);border-radius:5px;padding:5px 8px;font-size:8.8pt}
+  .chip b{display:block;color:var(--accent);font-size:8.8pt;margin-bottom:1px}
+  .job{margin-bottom:22px;break-inside:avoid}
+  .job-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .company{font-weight:700;font-size:10.3pt}
+  .dates{color:var(--muted);font-size:9pt;white-space:nowrap}
+  .role{color:var(--muted);font-size:9pt;margin:2px 0 5px}
+  .proj{font-weight:600;color:var(--accent);font-size:9.3pt;margin:9px 0 2px}
+  ul{margin:2px 0 0;padding-left:15px}
+  li{margin:3px 0}
+  li b{font-weight:600}
+  .num{font-weight:700;color:var(--accent)}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+  .skills{margin:0} .two dl{margin:0} .skills dt{font-weight:600;font-size:9pt;margin-top:8px}
+  .skills dd{margin:0 0 2px;color:#2d3744;font-size:9pt}
+  .small{font-size:9pt}
+  .sub{margin-left:0;padding-left:10px;border-left:2px solid var(--line)}
+  .topnav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.95);border-bottom:1px solid #d9dee5;padding:10px 16px;display:flex;gap:16px;align-items:center;font-size:14px}.topnav a{color:#0f4c81;text-decoration:none}.topnav b{margin-right:auto}
+  @media print{.topnav{display:none}}
+  @page{size:A4;margin:10mm 13mm}
+  @media print{
+    html,body{background:#fff}
+    .page{margin:0;padding:0;box-shadow:none;min-height:auto;width:auto}
+    .page+.page{padding-top:22px}
+  }
+  @media screen and (max-width:820px){
+    .page{width:auto;min-height:auto;margin:0;padding:18px 16px}
+    header{flex-direction:column;align-items:flex-start;gap:6px}
+    .contact{text-align:left}
+    .chips,.two{grid-template-columns:1fr}
+    .job-head{flex-direction:column}
+  }
+</style>
+</head>
+<body>
+<nav class="topnav"><b>이성호 · 이력서</b><a href="index.html">홈</a><a href="portfolio.html">포트폴리오</a><a href="resume.html">Resume (EN)</a></nav>
+<div class="page">
+  <header>
+    <div>
+      <h1>이성호</h1>
+      <div class="title">자동차 품질 엔지니어 · 신차 런칭 · 개발품질(APQP) · 협력사 개발</div>
+      <div class="total">총 경력 6년 3개월 · 자동차 품질 5년 4개월 <span>(2026.09 기준)</span></div>
+    </div>
+    <div class="contact">
+      대전광역시<br>
+      <a href="mailto:sungho3082@gmail.com">sungho3082@gmail.com</a><br>
+      한국어(모국어) · 영어(OPIc IM2)
+    </div>
+  </header>
+
+  <p class="summary">
+    발레오와 한온시스템에서 약 5년간 자동차 부품 품질을 담당했습니다. 신차 런칭 선행품질(FMEA · Error Proof),
+    신규 협력사 APQP(공정 검증 ~ Line T/O), 필드 클레임의 소자 · EEPROM 레벨 원인 분석까지 <b>양산 전에 품질을 확보하는 일</b>에
+    집중해 왔고, 현재는 한온시스템에서 차량 개발 단계에 맞춰 협력사 개발을 주도하고 있습니다.
+  </p>
+
+  <h2>핵심 역량</h2>
+  <div class="chips">
+    <div class="chip"><b>신차 런칭 · APQP</b>프로토~SOP 단계별 리스크 제거, FMEA · CP · Error Proof</div>
+    <div class="chip"><b>고객 · 필드 품질</b>고객사 · 소자업체 합동조사 리딩, 클레임 약 2,600만 원 방어</div>
+    <div class="chip"><b>자동차 전장</b>PCBA, Hall IC(TLE4997) EEPROM, FCT/EOLT 공정, 센서 제품</div>
+    <div class="chip"><b>근본 원인 분석</b>FTA · PDCA · 8D, 데이터시트 · 로그 기반 분석, 재현 테스트</div>
+    <div class="chip"><b>심사 · 품질 시스템</b>IATF 16949 · V5000 심사 리딩(2023, 2024), 협력사 Process Audit</div>
+    <div class="chip"><b>업무 효율화 · 자동화</b>AI 도구를 활용해 일정 관리 대시보드, PDF 자동 서명, SAP 입력 자동화 직접 제작</div>
+  </div>
+
+  <h2>경력</h2>
+
+  <div class="job">
+    <div class="job-head"><span class="company">한온시스템</span><span class="dates">2026.05 – 재직중</span></div>
+    <div class="role">구매본부 부품개발팀(P&amp;SD) · 선임 · 대전 · 정규직</div>
+    <ul>
+      <li><b>차량 개발 순서에 맞춘 협력사 개발 주도</b>: 칠러 · 콘덴서 · 라디에이터 등 열교환기 부품의 개발 단계별 품질 · 납기 준비 상태 관리</li>
+      <li><b>JG 차종 칠러 개발 Follow-up</b>: 개발 진척도 관리, 단계별 품질 · 납기 이슈 점검, 협력사 CAPA · 공정 평가로 양산 대응 가능 여부 검증</li>
+      <li><b>협력사 소통 세미나(2026 상반기)</b>: 협력사 대표이사 약 <span class="num">200</span>명 대상 기획 · 사회 · 발표, 고객사 메시지(Zero Defect 등)와 QCD 개선 방향 전달</li>
+      <li><b>협력사 품질 지표 관리</b>: 협력사별 품질 지표 체계화, 우수 개선사례 공유 · 확산</li>
+      <li><b>업무 효율화 (AI 도구 활용)</b>: 협력사 개발 일정 관리 대시보드(Google Sheets → 웹 DB), PDF 자동 다운로드 · 서명(Power Automate + Python), SAP 품질정보 · B/L 입력 자동화(Excel VBA), 협력사 자료 요청 메일 자동화 직접 제작</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head"><span class="company">발레오모빌리티코리아</span><span class="dates">2025.01 – 2026.05 (1년 5개월)</span></div>
+    <div class="role">품질팀 · 선임(Site SQA) · 대구 · 정규직 · ADAS 사업부 분사로 신규 법인 · 신설 공장</div>
+    <div class="proj">ROA 신규 프로젝트 런칭 품질 리딩</div>
+    <ul>
+      <li>FMEA · CP 작성, Cpk · MSA, Full Tool 점검, 고객사 역진단 대응, 패키징 승인 등 APQP 활동 수행</li>
+      <li><b>패키징 이종 혼입</b>: 품번 · 수량 일치 시에만 라벨이 출력되는 Error Proof 제안, "1회 약 500만 원 손실 · 분기 1회 이상 반복" 데이터로 생산기술팀 설득 후 도입</li>
+      <li><b>커넥터 외관 데미지</b>: 비전 전수 검사 구축 / <b>브라켓 노이즈</b>: 리브 보강 + 도면 간극 <span class="num">0.3 → 0.1 mm</span> 개정, 자주검사 추가</li>
+      <li>Heat Staking 게이지 · 조립 간섭 검사구 기획으로 판정 기준 정립, 양산 초기 품질 안정화</li>
+    </ul>
+    <div class="proj">신규 공장 품질 경영 시스템 · 수입검사</div>
+    <ul>
+      <li>SAP–Apriso 연동 입고 차단 인터락 구축, 검사 협정 재체결 · ISIR 전산화로 5 Star 요구사항 충족, 공정 스크랩 <span class="num">13%</span> 저감</li>
+      <li>사출 협력사 PBT GF30 하우징 취성 파손: 설비 정지 시 수지 체류가 원인, 퍼징 인터락 · 파괴검사로 FMEA High → Low, 전 사출 라인 수평 전개</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head"><span class="company">발레오전장시스템코리아</span><span class="dates">2021.06 – 2024.12 (3년 7개월)</span></div>
+    <div class="role">품질팀 · 선임(Site SQA) · 경주 · 정규직 · 그룹사 전출(ADAS 사업부 분사)</div>
+    <div class="proj">MDPS 필드 불량(3MIS) 원인 분석 · 2022.08 – 2023.12</div>
+    <ul>
+      <li>R&amp;D 부재 상황에서 Hall IC 데이터시트 · EEPROM 구조를 독학, PGSIS-2 · 오실로스코프로 귀환품 분석</li>
+      <li>Threshold Margin Level 이상으로 인한 패러티 에러를 규명, 고객사 Re-Writing 중 전압 강하가 원인임을 합동조사로 입증 → 클레임 약 <span class="num">2,600만 원</span> 방어</li>
+    </ul>
+    <div class="proj">SMT 협력사 Resourcing (신규 협력사 APQP) · 2022.12 – 2023.03</div>
+    <ul>
+      <li>공정 감사, PV Test, FDPR, Cp/Cpk · MSA, FMEA · CP 제개정, ISIR 최종 승인 주도</li>
+      <li>Line T/O 전수 불량을 EEPROM 기입 오류(LP filter '011' → '100')로 규명, Writing 직후 전수 검증 도입 → 양산 후 PPM <span class="num">45%</span> 감소</li>
+    </ul>
+    <div class="proj">양산 · 시스템 품질</div>
+    <ul>
+      <li>IATF 16949 · V5000 심사 대응 리딩(2023, 2024), 인증 유지</li>
+      <li>사출 신금형 3 item ISIR 승인(2024) → FDPR 기준 공정 불량률 <span class="num">10%</span> 저감</li>
+      <li>TAS 라인 Top Scrap(EOLT 히스테리시스) 원인 규명 → PPM <span class="num">21%</span> 감소</li>
+      <li>태국 · 슬로바키아 · 독일 협력사 품질 이슈 영어 대응, 클레임 비용 환수(약 6,000만 원, 8,000만 원 등)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="page">
+  <div class="job">
+    <div class="job-head"><span class="company">㈜도깨비</span><span class="dates">2020.10 – 2021.03 (6개월)</span></div>
+    <div class="role">개발팀 · 사원 · 구미 · 정규직 · 폐업으로 퇴사</div>
+    <ul>
+      <li>전동 킥보드 본체 및 안전 부가 아이템(윈드실드, LED 안전 시스템) 설계, 3D 프린팅 시제품 제작 · 실차 검증</li>
+      <li>국책과제 시제품 제작 리딩, 용접 · 가공 외주 업체와 제작 가능성 협의 및 기능 검수</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><span class="company">디젠㈜</span><span class="dates">2019.08 – 2019.12 (5개월)</span></div>
+    <div class="role">전자기술팀 · 인턴 · 대구</div>
+    <ul>
+      <li>아두이노 기반 USB 전류 측정 테스트 모듈을 직접 제작해 로직 검증 후, 외주 설계를 주도해 양산용 자동 전수 검사 시스템 구축</li>
+      <li>센서 간 블루투스 통신 프로토콜을 분석해 유효 데이터를 추출하고 실시간 모니터링 구현</li>
+    </ul>
+  </div>
+
+  <h2>보유 역량</h2>
+  <div class="two skills">
+    <dl>
+      <dt>품질 기법</dt><dd>APQP, PPAP/ISIR, PFMEA, Control Plan, FDPR, SPC(Cp/Cpk), MSA/Gage R&amp;R, FTA, PDCA, 8D, 4M 변경</dd>
+      <dt>표준 · 심사</dt><dd>IATF 16949, Valeo V5000 / 5 Star, 협력사 Process Audit</dd>
+      <dt>전장</dt><dd>PCBA/SMT, FCT/EOLT, Hall IC EEPROM 분석(PGSIS-2), 오실로스코프, CAN Tool</dd>
+    </dl>
+    <dl>
+      <dt>시스템</dt><dd>SAP, Apriso(MES)</dd>
+      <dt>데이터 · 자동화</dt><dd>Excel VBA, Python(pandas), Google Apps Script, HTML/JS 대시보드, Power Automate, Arduino</dd>
+      <dt>협업</dt><dd>R&amp;D · 생산기술 · 고객사 · 협력사와 협업, 해외 협력사 영어 메일 · 화상회의</dd>
+    </dl>
+  </div>
+
+  <h2>학력</h2>
+  <div class="job-head small"><span><b>금오공과대학교</b> 기계공학과 학사 (학점 3.81/4.5)</span><span class="dates">2014.03 – 2020.02</span></div>
+
+  <h2>기타</h2>
+  <ul class="small">
+    <li>병역: 대한민국 해군 (2015 – 2016), 소말리아 해역 호송전대 '청해부대' 선발</li>
+    <li>OPIc 영어 IM2 (2025.08)</li>
+  </ul>
+</div>
+</body>
+</html>
